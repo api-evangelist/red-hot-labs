@@ -1,4 +1,16 @@
 aid: red-hot-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-hot-labs.png
 name: Red Hot Labs
 description: Red Hot Labs is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -15,6 +27,14 @@ modified: '2026-07-17'
 tags:
 - Company
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Domain redhotlabs.com is parked on Google Firebase Hosting (A 199.36.158.100,
+    firebaseapp.com cert, www 404); defunct/acquired company with no live API surface,
+    developer portal, docs, or specs to search/generate/derive.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
